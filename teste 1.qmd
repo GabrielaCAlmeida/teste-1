@@ -1,0 +1,27 @@
+---
+title: "Dia 1"
+author: "Gabriela"
+format: html
+bibliography: references.bib
+---
+
+## Quarto
+
+Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see <https://quarto.org>.
+
+```{r}
+library(tidyverse)
+bvar <- read.csv("bivariate.csv")
+
+```
+
+Fizemos a leitura do banco de dados e carregamos o tidyverse.
+
+```{r}
+#| echo: false
+
+mean(bvar$X)
+
+```
+
+fgdfgfdg [@vieiragomes2018]
